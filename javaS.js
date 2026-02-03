@@ -94,9 +94,8 @@ choises.forEach(choies => {
 
 
 
+// this is the sound for game ------------------------------------------ 
 
-
-// ----- chat gpt for sound --
 let bgm = document.querySelector("#bgm");
 let musicStarted = false;
 
