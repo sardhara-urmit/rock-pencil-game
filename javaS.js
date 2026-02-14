@@ -1,5 +1,10 @@
-alert("1. you are play this game with computer \n 2. in the three choies computer are choies randomly \n 3. display the user choies and computer choies 4. disply the win, lose and darw as per choies 5. enjoy the game ");
-
+aalert(
+"1. you play this game with computer\n" +
+"2. computer chooses randomly\n" +
+"3. display user choice and computer choice\n" +
+"4. display win, lose or draw\n" +
+"5. enjoy the game"
+);
 
 let userScore=0;
 let comScore=0;
