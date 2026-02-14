@@ -1,10 +1,12 @@
-alert(
-"1. you play this game with computer\n" +
-"2. computer chooses randomly\n" +
-"3. display user choice and computer choice\n" +
-"4. display win, lose or draw\n" +
-"5. enjoy the game"
-);
+alert(`
+1. You play this game with the computer
+2. The computer chooses randomly
+3. Display your choice and the computer's choice
+4. Display win, lose, or draw
+5. Enjoy the game
+
+NOTE: The computer will also choose along with you
+`);
 
 
 let userScore=0;
