@@ -99,3 +99,17 @@ const draw=(chid,constr)=>{
     coc.innerText=constr;
     
 }
+// this is the sound for game ------------------------------------------ 
+
+let bgm = document.querySelector("#bgm");
+let musicStarted = false;
+
+document.body.addEventListener("click", () => {
+   if (!musicStarted) {
+      bgm.volume = 0.4;
+      bgm.play().catch(err => {
+         console.log("Music play blocked:", err);
+      });
+      musicStarted = true;
+   }
+});
